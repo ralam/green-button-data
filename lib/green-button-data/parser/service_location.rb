@@ -9,7 +9,7 @@ module GreenButtonData
       element :'espi:mainAddress', class: MainAddress, as: :main_address
 
       # Special case for PG&E generic namespacing
-      element :'ns0:mainAddress', class: MainAddress, as: :main_address
+      element :mainAddress, class: MainAddress, as: :main_address
     end
   end
 end

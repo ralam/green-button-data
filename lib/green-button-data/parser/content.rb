@@ -54,7 +54,7 @@ module GreenButtonData
       element :'ns0:UsageSummary', class: UsageSummary, as: :usage_summary
       element :'ns0:ServiceLocation', class: ServiceLocation,
               as: :service_location
-      element :'ns0:CustomerAgreement', class: CustomerAgreement,
+      element :CustomerAgreement, class: CustomerAgreement,
               as: :customer_agreement
     end
   end

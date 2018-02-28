@@ -36,8 +36,8 @@ module GreenButtonData
       element :'espi:streetDetail', class: StreetDetail, as: :street_detail
 
       # Special case for PG&E generic namespacing
-      element :'ns0:townDetail', class: TownDetail, as: :town_detail
-      element :'ns0:streetDetail', class: StreetDetail, as: :street_detail
+      element :townDetail, class: TownDetail, as: :town_detail
+      element :streetDetail, class: StreetDetail, as: :street_detail
     end
   end
 end

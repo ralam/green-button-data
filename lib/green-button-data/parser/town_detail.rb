@@ -13,9 +13,9 @@ module GreenButtonData
       element :'espi:name', as: :name
 
       # Special case for PG&E generic namespacing
-      element :'ns0:stateOrProvince', as: :state_or_province
-      element :'ns0:code', as: :code
-      element :'ns0:name', as: :name
+      element :stateOrProvince, as: :state_or_province
+      element :code, as: :code
+      element :name, as: :name
     end
   end
 end
