@@ -35,6 +35,14 @@ module GreenButtonData
       end
 
       # Handle PG&E namespacing
+      element :'ns1:id', as: :entry_id
+      element :'ns1:link', as: :up, value: :href, with: { rel: 'up' }
+      element :'ns1:link', as: :self, value: :href, with: { rel: 'self' }
+      elements :'ns1:link', as: :related, value: :href, with: { rel: 'related' }
+      element :'ns1:content', class: Content, as: :content
+      element :'ns1:published', as: :published
+      element :'ns1:updated', as: :updated
+      # Handle additional arbitrary PG&E namespacing updates
       element :'ns2:id', as: :entry_id
       element :'ns2:link', as: :up, value: :href, with: { rel: 'up' }
       element :'ns2:link', as: :self, value: :href, with: { rel: 'self' }

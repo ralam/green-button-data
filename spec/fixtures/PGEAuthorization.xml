@@ -1,10 +1,10 @@
-<ns2:entry xmlns:ns2="http://www.w3.org/2005/Atom">
-   <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">aaaabbbb-cccc-dddd-eeee-ffff01234567</ns2:id>
-   <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/Authorization" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-   <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/Authorization/0" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-   <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.016Z</ns2:published>
-   <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.017Z</ns2:updated>
-   <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ns1:entry xmlns:ns1="http://www.w3.org/2005/Atom">
+   <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">aaaabbbb-cccc-dddd-eeee-ffff01234567</ns1:id>
+   <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/Authorization" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+   <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/Authorization/0" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+   <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.016Z</ns1:published>
+   <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.017Z</ns1:updated>
+   <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <ns0:Authorization xmlns:ns0="http://naesb.org/espi">
          <ns0:authorizedPeriod>
             <ns0:duration>251963658000000</ns0:duration>
@@ -21,5 +21,5 @@
          <ns0:resourceURI>https://api.pge.com/GreenButtonConnect/espi/1_1/resource/Subscription/0</ns0:resourceURI>
          <ns0:authorizationURI>https://api.pge.com/GreenButtonConnect/espi/1_1/resource/Authorization/0</ns0:authorizationURI>
       </ns0:Authorization>
-   </ns2:content>
-</ns2:entry>
+   </ns1:content>
+</ns1:entry>

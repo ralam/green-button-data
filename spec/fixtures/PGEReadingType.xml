@@ -1,16 +1,16 @@
-<ns2:feed xmlns:ns2="http://www.w3.org/2005/Atom">
-   <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000001</ns2:id>
-   <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Green Button Usage Feed</ns2:title>
-   <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.978Z</ns2:updated>
-   <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000002</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.911Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.912Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ns1:feed xmlns:ns1="http://www.w3.org/2005/Atom">
+   <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000001</ns1:id>
+   <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Green Button Usage Feed</ns1:title>
+   <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.978Z</ns1:updated>
+   <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000002</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.911Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.912Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -25,16 +25,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000003</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.913Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.914Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000003</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.913Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.914Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -49,16 +49,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000004</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.914Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.915Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000004</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.914Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.915Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -73,16 +73,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000005</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.916Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.916Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000005</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.916Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.916Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -97,16 +97,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000006</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.917Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.918Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000006</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.917Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.918Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -121,16 +121,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000007</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.919Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.919Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000007</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.919Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.919Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -145,16 +145,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000008</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.92Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.921Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000008</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.92Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.921Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -169,16 +169,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000009</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.921Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.922Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000009</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.921Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.922Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -193,16 +193,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000a</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.923Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.923Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000a</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.923Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.923Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -217,16 +217,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000b</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.924Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.924Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000b</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.924Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.924Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -241,16 +241,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000c</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.925Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.926Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000c</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.925Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.926Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -265,16 +265,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000d</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.927Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.927Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000d</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.927Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.927Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -289,16 +289,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000e</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.928Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.928Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000e</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.928Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.928Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -313,16 +313,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000f</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.929Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.93Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000000f</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.929Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.93Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -337,16 +337,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000010</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.93Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.931Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000010</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.93Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.931Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -361,16 +361,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000011</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.932Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.932Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000011</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.932Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.932Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -385,16 +385,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000012</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.933Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.934Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000012</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.933Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.934Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -409,16 +409,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000013</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.934Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.935Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000013</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.934Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.935Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -433,16 +433,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000014</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.936Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.936Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000014</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.936Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.936Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -457,16 +457,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000015</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.937Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.937Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000015</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.937Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.937Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -481,16 +481,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000016</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.938Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.939Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000016</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.938Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.939Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -505,16 +505,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000017</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.939Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.94Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000017</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.939Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.94Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -529,16 +529,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000018</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.941Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.941Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000018</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.941Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.941Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -553,16 +553,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000019</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.942Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.943Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000019</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.942Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.943Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -577,16 +577,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001a</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.944Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.945Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001a</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.944Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.945Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -601,16 +601,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001b</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.946Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.946Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001b</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.946Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.946Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -625,16 +625,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001c</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.947Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.948Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001c</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.947Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.948Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -649,16 +649,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001e</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.949Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.95Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001e</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.949Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.95Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -673,16 +673,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001d</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.95Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.951Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001d</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.95Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.951Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -697,16 +697,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001f</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.952Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.952Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000001f</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.952Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.952Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -721,16 +721,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000020</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.953Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.954Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000020</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.953Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.954Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -745,16 +745,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000021</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.954Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.955Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000021</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.954Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.955Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -769,16 +769,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000022</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.956Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.956Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000022</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.956Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.956Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -793,16 +793,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000023</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.957Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.958Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000023</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.957Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.958Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -817,16 +817,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000024</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.959Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.96Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000024</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.959Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.96Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -841,16 +841,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000025</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.961Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.961Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000025</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.961Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.961Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -865,16 +865,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000026</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.962Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.963Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000026</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.962Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.963Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -889,16 +889,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000027</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.963Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.964Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000027</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.963Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.964Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -913,16 +913,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000028</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.965Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.965Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000028</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.965Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.965Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -937,16 +937,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000029</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.966Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.966Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000029</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.966Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.966Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -961,16 +961,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002a</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.967Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.968Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002a</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.967Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.968Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -985,16 +985,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>2</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002b</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.969Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.969Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002b</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.969Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.969Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -1009,16 +1009,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002c</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.97Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.97Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002c</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.97Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.97Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -1033,16 +1033,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002d</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.971Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.972Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002d</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.971Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.972Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -1057,16 +1057,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002e</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.972Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.973Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002e</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.972Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.973Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -1081,16 +1081,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>6</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002f</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.974Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.974Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-00000000002f</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.974Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.974Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -1105,16 +1105,16 @@
             <ns0:uom>73</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000030</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.975Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.976Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000030</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq==" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.975Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.976Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -1129,16 +1129,16 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-   <ns2:entry>
-      <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000031</ns2:id>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns2:title>
-      <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.976Z</ns2:published>
-      <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.977Z</ns2:updated>
-      <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      </ns1:content>
+   </ns1:entry>
+   <ns1:entry>
+      <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000031</ns1:id>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ReadingType/pDwBygAR3L8fGZCq=" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Type of Meter Reading Data</ns1:title>
+      <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.976Z</ns1:published>
+      <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-08-04T15:51:34.977Z</ns1:updated>
+      <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <ns0:ReadingType xmlns:ns0="http://naesb.org/espi">
             <ns0:accumulationBehaviour>4</ns0:accumulationBehaviour>
             <ns0:commodity>1</ns0:commodity>
@@ -1153,6 +1153,6 @@
             <ns0:uom>72</ns0:uom>
             <ns0:measuringPeriod>7</ns0:measuringPeriod>
          </ns0:ReadingType>
-      </ns2:content>
-   </ns2:entry>
-</ns2:feed>
+      </ns1:content>
+   </ns1:entry>
+</ns1:feed>
