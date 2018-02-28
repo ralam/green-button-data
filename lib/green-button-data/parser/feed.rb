@@ -34,14 +34,14 @@ module GreenButtonData
       end
 
       # PG&E's generic namespace
-      element :'ns1:id', as: :feed_id
-      element :'ns1:title', as: :title
-      element :'ns1:subtitle', as: :description
-      element :'ns1:link', as: :url, value: :href, with: { type: 'text/html' }
-      element :'ns1:link', as: :feed_url, value: :href, with: { rel: 'self' }
-      element :'ns1:links', as: :links, value: :href
-      elements :'ns1:entry', class: Entry, as: :entries
-      element :'ns1:updated', as: :updated
+      element :'ns2:id', as: :feed_id
+      element :'ns2:title', as: :title
+      element :'ns2:subtitle', as: :description
+      element :'ns2:link', as: :url, value: :href, with: { type: 'text/html' }
+      element :'ns2:link', as: :feed_url, value: :href, with: { rel: 'self' }
+      element :'ns2:links', as: :links, value: :href
+      elements :'ns2:entry', class: Entry, as: :entries
+      element :'ns2:updated', as: :updated
     end
   end
 end

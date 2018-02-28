@@ -1,11 +1,11 @@
-<ns1:entry xmlns:ns1="http://www.w3.org/2005/Atom">
-   <ns1:id xsi:type="ns1:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">11111111-2222-3333-4444-555555555555</ns1:id>
-   <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ApplicationInformation" rel="up" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-   <ns1:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ApplicationInformation/00000000-2222-4444-6666-8888aaaacccc" rel="self" xsi:type="ns1:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-   <ns1:title type="text" xsi:type="ns1:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GreenButtonData.org  DataCustodian Application</ns1:title>
-   <ns1:published xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.532Z</ns1:published>
-   <ns1:updated xsi:type="ns1:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.533Z</ns1:updated>
-   <ns1:content xsi:type="ns1:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ns2:entry xmlns:ns2="http://www.w3.org/2005/Atom">
+   <ns2:id xsi:type="ns2:idType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">11111111-2222-3333-4444-555555555555</ns2:id>
+   <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ApplicationInformation" rel="up" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+   <ns2:link href="https://api.pge.com/GreenButtonConnect/espi/1_1/resource/ApplicationInformation/00000000-2222-4444-6666-8888aaaacccc" rel="self" xsi:type="ns2:linkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+   <ns2:title type="text" xsi:type="ns2:textType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GreenButtonData.org  DataCustodian Application</ns2:title>
+   <ns2:published xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.532Z</ns2:published>
+   <ns2:updated xsi:type="ns2:dateTimeType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-10-21T16:21:21.533Z</ns2:updated>
+   <ns2:content xsi:type="ns2:contentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <ns0:ApplicationInformation xmlns:ns0="http://naesb.org/espi">
          <ns0:dataCustodianId>PGE</ns0:dataCustodianId>
          <ns0:dataCustodianApplicationStatus>2</ns0:dataCustodianApplicationStatus>
@@ -39,5 +39,5 @@
          <ns0:registration_access_token xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">00001111-2222-3333-4444-cccceeeeffff</ns0:registration_access_token>
          <ns0:dataCustodianScopeSelectionScreenURI xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">https://sharemydata.pge.com/myAuthorization/?clientId=0&amp;verified=true</ns0:dataCustodianScopeSelectionScreenURI>
       </ns0:ApplicationInformation>
-   </ns1:content>
-</ns1:entry>
+   </ns2:content>
+</ns2:entry>
